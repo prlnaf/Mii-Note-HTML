@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: https://ogp.me/ns#">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mii Note｜気持ちを整理するジャーナリングアプリ</title>
+  <meta name="description" content="Mii Noteは、気持ちを整理して自分を受け入れるためのジャーナリングアプリです。相棒と一緒に、自分のペースで心の状態を振り返れます。">
+
+  <!-- OGP -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mii Note｜ひとりで抱えなくていいよ">
+  <meta property="og:description" content="気持ちを整理して、自分を受け入れるためのジャーナリングアプリ">
+  <meta property="og:image" content="https://prlnaf.com/wp-content/themes/nana-Portfolio/assets/imgs/ogp-miinote.jpg">
+  <meta property="og:url" content="https://prlnaf.com/miinote/">
+  <meta property="og:site_name" content="Nana Fujimoto Portfolio">
+
+  <!-- Twitterカード -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mii Note｜ひとりで抱えなくていいよ">
+  <meta name="twitter:description" content="気持ちを整理して、自分を受け入れるためのジャーナリングアプリ">
+  <meta name="twitter:image" content="https://prlnaf.com/wp-content/themes/nana-Portfolio/assets/imgs/ogp-miinote.jpg">
+
+<!-- ファビコン -->
+<link rel="icon" href="./assets/imgs/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/imgs/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/imgs/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/imgs/apple-touch-icon.png">
+
+  <!-- Fonts（まとめる） -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/destyle.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- JavaScript -->
+  <script src="assets/js/main.js" defer></script>
+
+</head>
+
+<body>
+  <header class="header">
+      <div class="header__inner">
+    
+        <p class="header__logo">
+          <a href="#top" class="header__logoLink">
+            <img src="assets/imgs/logo-mii-note.svg" alt="Mii Note">
+          </a>
+        </p>
+    
+        <nav class="header__nav js-drawer" id="global-nav" aria-label="グローバルナビゲーション">
+          <ul class="header__list">
+            <li><a href="#empathy">特徴</a></li>
+            <li><a href="#how">使い方</a></li>
+            <li><a href="#voice">ユーザーの声</a></li>
+            <li><a href="#faq">よくある質問</a></li>
+          </ul>
+        </nav>
+    
+        <div class="header__cta">
+          <a href="#cta" class="header__btn">今の気持ちを書いてみる</a>
+        </div>
+
+        <button class="header__menu js-hamburger" type="button" aria-controls="global-nav" aria-expanded="false">
+          <span class="header__menuText">メニュー</span>
+          <span class="header__menuLines" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+    
+      </div>
+    </header>
+
+  <main>
+
+  <!-- fv -->
+  <section class="fv" id="top">
+    <div class="fv__inner">
+  
+      <div class="fv__content">
+        <p class="fv__lead">ひとりで抱えなくていいよ</p>
+  
+        <h1 class="fv__logo">
+          <img src="assets/imgs/logo-mii-note.svg" alt="Mii Note">
+        </h1>
+  
+        <p class="fv__sub">ミーノート</p>
+  
+        <p class="fv__catch">「がんばってるのに満たされないあなたへ」</p>
+  
+        <p class="fv__text">
+          気持ちを整理して、自分を受け入れるための<br class="pc">
+          相棒と一緒に続けるジャーナリングアプリ
+        </p>
+  
+        <a class="fv__btn" href="#cta">無料ではじめる</a>
+      </div>
+  
+      <div class="fv__visual">
+        <div class="fv__visualInner">
+          <div class="fv__mock">
+            <img src="assets/imgs/fv-visual-mock.png" alt="Mii NoteのLPビジュアル">
+          </div>
+          <div class="fv__girl">
+            <img src="assets/imgs/fv-visual-woman.png" alt="アプリを見つけた女性ユーザー">
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- intro -->
+  <section class="empathy" id="empathy">
+    <div class="empathy__inner">
+      <div class="empathy__head">
+        <h2 class="empathy__title">こんな気持ち、<br class="sp__br">ありませんか？</h2>
+        <p class="empathy__lead">
+          <!-- ひとりで抱えなくていいよ。<br> -->
+          気持ちを「書く・気づく・理解する」ことで、少しずつ軽くしていけます。
+        </p>
+      </div>
+  
+      <div class="empathy__cards">
+        <article class="empathyCard">
+          <div class="empathyCard__img">
+            <img src="assets/imgs/empathy-worry.png" alt="モヤモヤして気持ちがまとまらない様子のイラスト">
+          </div>
+          <h3 class="empathyCard__title">モヤモヤして<br class="sp__br">気持ちがまとまらない</h3>
+          <p class="empathyCard__text">
+            何に悩んでいるのかも分からないまま、
+            気持ちだけがぐるぐるしてしまう
+          </p>
+        </article>
+  
+        <article class="empathyCard">
+          <div class="empathyCard__img">
+            <img src="assets/imgs/empathy-confused.png" alt="自分のことがよく分からない様子のイラスト">
+          </div>
+          <h3 class="empathyCard__title">自分のことがよく分からない</h3>
+          <p class="empathyCard__text">
+            気持ちを書き出しても、結局どう感じているのか
+            整理できない。
+          </p>
+        </article>
+  
+        <article class="empathyCard">
+          <div class="empathyCard__img">
+            <img src="assets/imgs/empathy-alone.png" alt="誰にも言えない気持ちがある様子のイラスト">
+          </div>
+          <h3 class="empathyCard__title">誰にも言えない気持ちがある</h3>
+          <p class="empathyCard__text">
+            本音を話せる場所がなくて、
+            ひとりで抱え込んでしまう。
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="dots">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- how -->
+  <section class="how" id="how">
+    <div class="how__inner">
+      <div class="how__head">
+        <h2 class="how__title">
+          自分にやさしく<br class="sp__br">なるための3ステップ
+        </h2>
+
+      </div>
+  
+      <div class="how__list">
+  
+        <article class="howItem howItem--01">
+          <div class="howItem__img">
+            <img src="assets/imgs/how-step01.png" alt="感じたことをそのまま書く画面">
+          </div>
+          <div class="howItem__body">
+            <p class="howItem__num">1</p>
+            <h3 class="howItem__title">気持ちをそのまま置いてみる</h3>
+            <p class="howItem__text">
+              うまく言葉にできなくても大丈夫。<br class="sp__br">思ったことを、ありのまま残してみよう。
+            </p>
+          </div>
+        </article>
+  
+        <article class="howItem howItem--02">
+          <div class="howItem__img">
+            <img src="assets/imgs/how-step02.png" alt="自分の状態がつながって見えてくる画面">
+          </div>
+          <div class="howItem__body">
+            <p class="howItem__num">2</p>
+            <h3 class="howItem__title">自分の状態が見えるようになる</h3>
+            <p class="howItem__text">
+              気分の変化だけでなく、使った基礎化粧品や体調が
+              手軽に振り返ることができて、生活との関係も
+              ひとつにつながって見えてきます。
+            </p>
+          </div>
+        </article>
+  
+        <article class="howItem howItem--03">
+          <div class="howItem__img">
+            <img src="assets/imgs/how-step03.png" alt="相棒と一緒に自分と向き合っていく画面">
+          </div>
+          <div class="howItem__body">
+            <p class="howItem__num">3</p>
+            <h3 class="howItem__title">相棒と一緒に自分を受け入れていく</h3>
+            <p class="howItem__text">
+              無理に変わらなくていい。<br class="sp__br">少しずつ、自分にやさしくなれる。
+            </p>
+          </div>
+        </article>
+  
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="ctaFinal" id="cta">
+    <div class="ctaFinal__inner">
+  
+      <div class="ctaFinal__content">
+        <p class="ctaFinal__text">
+          今日の気持ち、<br class="sp__br">少しだけ書いてみませんか？
+        </p>
+  
+        <a href="#premium" class="ctaFinal__btn">
+          Mii Noteをはじめる
+        </a>
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- voice -->
+  <section class="voice" id="voice">
+    <div class="voice__inner">
+      <h2 class="voice__title">Mii Noteが支える、<br class="sp__br">あなたの毎日</h2>
+  
+      <div class="voice__list">
+        <article class="voiceCard">
+          <div class="voiceCard__icon">
+            <img src="assets/imgs/voice-akane.png" alt="Akaneさんのシルエットアイコン">
+          </div>
+          <p class="voiceCard__name">Akaneさん（20代）</p>
+          <p class="voiceCard__text">
+            "書くだけでいいって思えたら気持ちが少し楽になりました。"
+          </p>
+        </article>
+  
+        <article class="voiceCard">
+          <div class="voiceCard__icon">
+            <img src="assets/imgs/voice-mame.png" alt="Mameさんのシルエットアイコン">
+          </div>
+          <p class="voiceCard__name">Mameさん（40代）</p>
+          <p class="voiceCard__text">
+            "自分の気持ちってこんなふうに変わってたんだって、初めて気づけました。"
+          </p>
+        </article>
+  
+        <article class="voiceCard">
+          <div class="voiceCard__icon">
+            <img src="assets/imgs/voice-miwa.png" alt="Miwaさんのシルエットアイコン">
+          </div>
+          <p class="voiceCard__name">Miwaさん（30代）</p>
+          <p class="voiceCard__text">
+            "キャラクターがいるだけで、ひとりじゃないって思えました。"
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- safePlace -->
+  <section class="safePlace" id="safePlace">
+    <div class="safePlace__inner">
+      <h2 class="safePlace__title">安心して使える、<br class="sp__br">あなたのための場所</h2>
+  
+      <div class="safePlace__textWrap">
+        <p class="safePlace__text">
+          記録した内容は外に公開されることはなく、<br>
+          自分だけの空間で安心して使えます。
+        </p>
+  
+        <p class="safePlace__text">
+          相棒がそっと寄り添いながら、あなたの気持ちを<br>
+          受け止めてくれる場所です。
+        </p>
+  
+        <p class="safePlace__text">毎日続けなくても大丈夫。</p>
+  
+        <p class="safePlace__text">
+          あなたのペースで無理なく続けられます。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- premium -->
+  <section class="premium" id="premium">
+    <div class="premium__inner">
+      <div class="premium__head">
+        <p class="premium__illust">
+          <img src="assets/imgs/premium-girl.png" alt="寝そべってスマホを見る女性">
+        </p>
+  
+        <h2 class="premium__title">自分と向き合う時間を、<br class="sp__br">もっと深く。</h2>
+  
+        <p class="premium__lead">
+          Mii Noteは無料でも使えますが、<br class="sp__br">もっと深く自分を知りたい方のために、<br class="sp__br">
+          プレミアム機能をご用意しています。
+        </p>
+      </div>
+  
+      <div class="premium__features">
+        <article class="premiumCard">
+          <h3 class="premiumCard__title">その場の共感から<br class="pc__br">一歩深い対話へ</h3>
+          <p class="premiumCard__text">
+            無料でも、その日の気持ちにやさしく寄り添います。<br>
+            プレミアムでは、これまでの記録をもとに、あなたの気持ちの流れや傾向までふまえてサポートします。
+          </p>
+        </article>
+  
+        <article class="premiumCard">
+          <h3 class="premiumCard__title">自分の気持ちに<br class="pc__br">少しずつ気づける</h3>
+          <p class="premiumCard__text">
+            書いた内容から、感情や思考の傾向をやさしく可視化。<br>
+            なんとなく感じていた違和感の理由が分かることで、自分なりの対処の仕方が見えてきます。
+          </p>
+        </article>
+  
+        <article class="premiumCard">
+          <h3 class="premiumCard__title">自分に合った<br class="pc__br">整え方が分かる</h3>
+          <p class="premiumCard__text">
+            あなたの記録をもとに、今の状態に合ったセルフケアやアイテムを提案。<br>
+            過去のメモや気づきもすぐに振り返れるため、自分に合った整え方が分かるようになります。
+          </p>
+        </article>
+      </div>
+  
+      <div class="premium__plan">
+        <h3 class="premium__planTitle">あなたのペースで続けられるプラン</h3>
+  
+        <div class="premium__planList">
+          <a href="#cta" class="premiumPlan premiumPlan--recommended">
+            <span class="premiumPlan__badge">おすすめ</span>
+            <span class="premiumPlan__text">年間プラン ¥4,800（¥400/月）</span>
+          </a>
+  
+          <a href="#cta" class="premiumPlan">
+            <span class="premiumPlan__text">月額プラン ¥680</span>
+          </a>
+        </div>
+  
+        <p class="premium__note">
+          いつでも解約でき、<br class="sp__br">
+          無料からはじめられます。
+        </p>
+  
+        <a href="#cta" class="premium__cta">自分と向き合う時間をはじめる</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="dots">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- faq -->
+  <section class="faq" id="faq">
+    <div class="faq__inner">
+      <h2 class="faq__title">はじめる前によくある質問</h2>
+  
+      <div class="faq__list">
+        <details class="faqItem">
+          <summary class="faqItem__question">
+            <span class="faqItem__q">Q</span>
+            <span class="faqItem__questionText">無料でも使えますか？</span>
+            <span class="faqItem__icon"></span>
+          </summary>
+          <div class="faqItem__answer">
+            <p>
+              基本的な記録や振り返りは無料でご利用いただけます。
+              もっと深く自分を知りたい方のために、プレミアム機能もご用意しています。
+            </p>
+          </div>
+        </details>
+  
+        <details class="faqItem">
+          <summary class="faqItem__question">
+            <span class="faqItem__q">Q</span>
+            <span class="faqItem__questionText">記録した内容は他の人に見られますか？</span>
+            <span class="faqItem__icon"></span>
+          </summary>
+          <div class="faqItem__answer">
+            <p>
+              いいえ。記録した内容が外に公開されることはなく、
+              自分だけの空間で安心して使えます。
+            </p>
+          </div>
+        </details>
+  
+        <details class="faqItem">
+          <summary class="faqItem__question">
+            <span class="faqItem__q">Q</span>
+            <span class="faqItem__questionText">毎日使わないと意味がないですか？</span>
+            <span class="faqItem__icon"></span>
+          </summary>
+          <div class="faqItem__answer">
+            <p>
+              毎日続けなくても大丈夫です。
+              あなたのペースで、無理なく続けられることを大切にしています。
+            </p>
+          </div>
+        </details>
+  
+        <details class="faqItem">
+          <summary class="faqItem__question">
+            <span class="faqItem__q">Q</span>
+            <span class="faqItem__questionText">どんな人に向いていますか？</span>
+            <span class="faqItem__icon"></span>
+          </summary>
+          <div class="faqItem__answer">
+            <p>
+              気持ちを整理したい方、自分の状態をやさしく振り返りたい方、
+              ひとりで抱え込みがちな方におすすめです。
+            </p>
+          </div>
+        </details>
+  
+        <details class="faqItem">
+          <summary class="faqItem__question">
+            <span class="faqItem__q">Q</span>
+            <span class="faqItem__questionText">プレミアムでは何ができますか？</span>
+            <span class="faqItem__icon"></span>
+          </summary>
+          <div class="faqItem__answer">
+            <p>
+              より深い振り返りや分析、相棒からのフィードバックなど、
+              自分と向き合う時間をもっと支える機能が使えます。
+            </p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__logo">
+        <img src="assets/imgs/logo-mii-note.svg" alt="Mii Noteロゴ">
+      </div>
+  
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li><a href="#empathy">特徴</a></li>
+          <li><a href="#how">使い方</a></li>
+          <li><a href="#voice">ユーザーの声</a></li>
+          <li><a href="#faq">よくある質問</a></li>
+        </ul>
+      </nav>
+  
+      <p class="footer__copy">
+        &copy; 2026 Mii Note
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
